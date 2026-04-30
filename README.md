@@ -39,6 +39,10 @@ Automatically switch versions of node by looking for a .nvmrc file in the path t
 
 3. Start a new terminal session.
 
+## Troubleshooting
+### Could not find nvm, but nvm is installed
+Make sure that the initialization of nvm happens before the `plugins=(...)` section in the .zshrc file.
+
 ## Acknowledgments
 
 * [nvm-auto](https://github.com/dijitalmunky/nvm-auto)
